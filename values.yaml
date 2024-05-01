@@ -1,10 +1,10 @@
 # Default values for backend-manifest-repo.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
-
+appName: "backend-app"
 replicaCount: 2
 image:
-  repository: 682935334295.dkr.ecr.ap-northeast-2.amazonaws.com/backend_app_repo
+  repository: 682935334295.dkr.ecr.ap-northeast-2.amazonaws.com/backend-app-repo
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "05d1c"
