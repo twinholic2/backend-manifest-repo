@@ -46,7 +46,7 @@ ingress:
     alb.ingress.kubernetes.io/target-type: ip
     alb.ingress.kubernetes.io/scheme: internet-facing
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTP": 80}]'
-    alb.ingress.kubernetes.io/healthcheck-path: /
+    alb.ingress.kubernetes.io/healthcheck-path: /api/v1/healthz
     alb.ingress.kubernetes.io/subnets: subnet-062e52daa231e98bf, subnet-07ea3baebab92ae2f
   ingressRule:
     - http:
