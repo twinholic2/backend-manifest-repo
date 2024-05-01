@@ -7,7 +7,7 @@ image:
   repository: 682935334295.dkr.ecr.ap-northeast-2.amazonaws.com/backend-app-repo
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "a9a3e"
+  tag: "9ada6"
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
